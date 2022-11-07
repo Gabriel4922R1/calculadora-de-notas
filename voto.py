@@ -25,7 +25,7 @@ if voto == 10:
 
 elif voto == 20: 
     Jean_Piaget += 1
-    print(f"Candidato Paulo Freire tem: {Paulo_Freire} votos, Candidato Jean_Piaget tem: {Jean_Piaget} votos")
-
+    print(f"Candidato Paulo Freire tem: {Paulo_Freire} votos")
+    print("Candidato Jean_Piaget tem: {Jean_Piaget} votos")
 else:
-    print("candidato não encontrado")
+    print("candidato não encontrado. ")
