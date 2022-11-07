@@ -1,3 +1,7 @@
+Paulo_Freire = 0
+
+Jean_Piaget = 0
+
 print("digite seus documentos para votar ")
 
 rg = int(input("Digite seu RG: "))
@@ -11,11 +15,15 @@ if titulo == 11122233344:
 else:
         print("Eleitor não encontrado")
 
-candidato = int(input("Digite seu voto: "))
-if candidato == 10:
-    print("Paulo Freire")
-elif candidato == 20:
-    print("Jean Piaget")
+print("Paulo Freire = 10 ")
+print("Jean Piaget = 20 ")
+
+voto = int(input("Digite seu voto: "))
+
+if voto == 10:
+    Paulo_Freire += 1
+
 else:
-    print("Candidato não encontrado")
-    
+    Jean_Piaget +=1
+
+print(f"Candidato Paulo Freire tem: {Paulo_Freire} votos, Candidato Jean_Piaget tem: {Jean_Piaget} votos")
